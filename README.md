@@ -10,3 +10,8 @@ This project provides tools to download, prepare, finetune, and test a language 
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
+```
+python /Users/bccca/dev/bangla-finetuner/scripts/start_demo.py --model_dir "csebuetnlp/banglabert" --open_browser
+```
